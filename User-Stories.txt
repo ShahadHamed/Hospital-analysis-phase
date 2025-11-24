@@ -1,0 +1,71 @@
+3. USER STORIES (For Hospital Information System)
+Definition and Format
+
+A user story describes a requirement from the perspective of the end user. It follows a simple structure:
+
+As a [type of user/role], I want [goal or capability], so that [value or benefit].
+
+This structure clearly identifies:
+• Who needs the feature
+• What they need
+• Why they need it
+
+User stories keep the development focused on real hospital workflows and ensure every feature supports clinical or administrative value.
+
+Examples of User Stories (HIS):
+
+As a doctor, I want to view a patient’s complete medical history, so that I can make accurate diagnoses.
+
+As a nurse, I want to update patient vital signs in real time, so that the medical team has the latest information.
+
+As a receptionist, I want to register new patients quickly, so that the admission process is smooth and efficient.
+
+As a pharmacist, I want to check medication stock levels, so that I can dispense prescriptions without delays or shortages.
+
+As a lab technician, I want to upload and verify test results, so that doctors can review them immediately.
+
+As a radiologist, I want to attach imaging reports to the patient file, so that doctors can access them for treatment decisions.
+
+As a patient, I want to view my upcoming appointments, so that I can manage my hospital visits easily.
+
+As an insurance officer, I want to confirm the patient’s insurance validity, so that claims can be processed correctly.
+
+As a doctor, I want to prescribe medications electronically, so that the pharmacy receives accurate and clear orders.
+
+As a nurse, I want to receive alerts for medication administration times, so that I can provide timely care.
+
+As an administrator, I want to generate daily and monthly reports, so that I can evaluate hospital performance.
+
+As a billing officer, I want to calculate patient charges automatically, so that invoices are accurate and error-free.
+
+As a patient, I want to receive appointment reminders, so that I don’t miss scheduled visits.
+
+As a ward supervisor, I want to see bed availability in real time, so that patients can be assigned rooms efficiently.
+
+As an IT manager, I want to control user access levels, so that sensitive data is protected and only authorized staff can access it.
+
+Acceptance Criteria (For HIS)
+
+Acceptance criteria define the conditions that must be met for a user story to be considered complete. They help developers handle edge cases and ensure the feature works correctly under all circumstances.
+
+Examples suitable for a hospital system:
+
+For Patient Portal Login
+
+• Account is locked after five failed login attempts.
+• Password reset link expires after 24 hours.
+• Old passwords cannot be reused.
+• Only verified accounts are allowed to access medical records.
+
+For Appointment Scheduling
+
+• System prevents double-booking the same doctor.
+• Patient receives confirmation after scheduling.
+• Appointment cannot be scheduled outside working hours.
+• System displays available slots only.
+
+For Viewing Lab Results
+
+• Results appear only after verification by a lab supervisor.
+• Doctors receive a notification when new results are available.
+• Patients can access results only if the doctor has approved release.
