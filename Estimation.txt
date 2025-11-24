@@ -1,0 +1,33 @@
+4. WEIGHTING AND ESTIMATION (For Hospital Information System)
+Purpose of Story Estimation
+
+Estimation helps the team understand how big a user story is, how much effort it needs, and how to plan sprints effectively. It allows the team to decide how many stories can fit into a sprint and compare the size of one story to another.
+
+Why Story Points Instead of Hours?
+
+Story points measure relative complexity, not exact time.
+People are much better at comparing tasks than predicting exact hours.
+
+Examples:
+• “Updating patient vitals is simpler than generating hospital reports.”
+• “Building the pharmacy stock system is about twice as complex as building the appointment calendar.”
+
+This avoids incorrect hour-based commitments and focuses on effort, risk, and complexity.
+
+Story Point Scale (Modified Fibonacci Sequence)
+
+Development teams often use the Fibonacci sequence because it reflects natural jumps in complexity:
+
+1, 2, 3, 5, 8, 13, 20, 40, 100
+
+Smaller numbers = simple tasks
+Larger numbers = complex, risky, unclear tasks
+
+What Contributes to Story Point Size?
+
+When estimating a hospital system feature, consider:
+
+• Complexity – How difficult is the logic? Example: EMR access levels
+• Amount of work – How many steps or screens are needed?
+• Technical uncertainty – Unknown integrations like lab devices or insurance portals
+• Risks or dependencies – Legal rules, patient safety requirements, or data privacy concerns
