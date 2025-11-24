@@ -1,0 +1,41 @@
+2. PRODUCT BACKLOG DEVELOPMENT (For Hospital Information System)
+1. Definition and Purpose
+
+A product backlog is a prioritized list of all features, enhancements, fixes, and tasks needed to develop the Hospital Information System. It guides the development team and ensures the highest-value healthcare features are delivered first. It remains dynamic and changes as hospital needs evolve.
+
+2. Backlog Prioritization Techniques
+
+Backlog items are ordered based on value and urgency. Techniques include:
+
+• Value vs. Effort – High-value, low-effort hospital features (e.g., appointment reminders) are done first.
+• MoSCoW Method – Must have, Should have, Could have, Won’t have.
+• Risk-based prioritization – Critical patient-safety features (e.g., medication alerts) are prioritized.
+• Business impact – Features that improve efficiency and reduce hospital workload are moved higher.
+
+Backlog Structure (For HIS)
+Epics (Large Features)
+
+Examples:
+• Patient Registration and Admission System
+• Electronic Medical Records
+• Pharmacy Management
+• Laboratory Information Management
+• Appointment and Scheduling System
+• Billing and Insurance Claims System
+
+User Stories (Smaller deliverable features)
+
+Examples:
+• As a doctor, I want to view a patient’s full medical history so that I can make informed treatment decisions.
+• As a nurse, I want to update vital signs so that the doctor sees real-time health information.
+• As a pharmacist, I want to check medication stock so that I can dispense drugs without errors.
+• As a receptionist, I want to schedule appointments so that patients receive organized service.
+
+Tasks (Technical Implementation Steps)
+
+Examples:
+• Create patient database tables
+• Build API for lab result submission
+• Implement authentication and access control
+• Integrate pharmacy stock barcode scanner
+• Design UI for appointment calendar
