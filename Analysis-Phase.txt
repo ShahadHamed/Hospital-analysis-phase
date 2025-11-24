@@ -1,0 +1,60 @@
+1. THE ANALYSIS PHASE IN SOFTWARE DEVELOPMENT (For Hospital Information System)
+Definition and Importance
+
+The analysis phase is the stage where the development team studies the hospital’s needs, workflows, and challenges to define what the Hospital Information System must achieve. This phase is crucial because hospitals rely on accurate, real-time, and safe data handling. Any misunderstanding in requirements can affect patient care, safety, and operations.
+
+Sub-Steps of the Analysis Phase
+1. Requirements Elicitation
+
+This step focuses on collecting detailed needs and expectations from all hospital stakeholders, such as doctors, nurses, administrators, laboratory staff, pharmacists, and IT managers.
+Activities include interviews, surveys, document analysis, and observing how staff currently handle patient records, appointments, pharmacy dispensing, and billing.
+
+For HIS, elicitation helps identify needs like:
+• Managing patient admissions and discharge
+• Electronic medical records
+• Appointment scheduling
+• Pharmacy stock tracking
+• Laboratory requests and results
+• Billing and insurance claims
+
+2. Requirements Analysis and Modeling
+
+Once the data is collected, the team organizes and analyzes it to ensure clarity. The workflows of departments—such as emergency, outpatient, pharmacy, and lab—are modeled using diagrams like use case diagrams, activity diagrams, and data flow diagrams.
+
+For HIS, analysis may reveal:
+• Exact data needed for patient records
+• How departments communicate
+• Approvals required for medication orders
+• Data security and access levels
+• Integration points with medical devices or insurance systems
+
+3. Requirements Specification (SRS)
+
+All requirements are written in a formal Software Requirements Specification document. This ensures the hospital administration and development team share a common, detailed understanding of the system.
+
+The SRS includes:
+• Functional requirements (e.g., “The system shall store patient history and allow authorized access.”)
+• Non-functional requirements (security, response time, uptime, privacy)
+• System constraints (legal regulations, interoperability standards like HL7)
+• Interfaces (lab devices, pharmacy barcode scanners, insurance portals)
+
+4. Requirements Validation and Verification
+
+The team checks that the requirements are accurate, complete, and aligned with hospital needs. This step confirms that nothing important is missing and that all requirements follow medical standards.
+
+Activities include:
+• Reviewing the SRS with doctors, nurses, and administrators
+• Checking the consistency of workflows
+• Ensuring privacy and safety standards are addressed
+• Verifying that requirements support patient care and hospital policies
+
+5. Requirements Management and Change Control
+
+Hospitals often request changes as workflows evolve. Requirements must be tracked and managed throughout the project.
+
+In HIS projects, this includes:
+• Version control of requirement documents
+• Tracking each change request
+• Assessing the impact of changes on cost, schedule, and patient safety
+• Keeping stakeholders updated
+• Ensuring the new requirements do not break existing hospital processes
