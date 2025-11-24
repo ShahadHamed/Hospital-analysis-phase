@@ -1,0 +1,37 @@
+5. COMPLETE HOSPITAL SYSTEM EXAMPLE
+
+Below is a full example similar to your banking sample, but customized for a Hospital Information System.
+
+US-001: Secure Patient Login to Hospital Portal
+User Story
+
+As a patient, I want to securely log into my hospital portal using my username and password, so that I can view my medical records and appointments safely.
+
+Acceptance Criteria
+
+Successful Login
+• Given I am a registered patient with valid credentials
+• When I enter my correct username and password and click “Login”
+• Then I am authenticated and redirected to my patient dashboard
+
+Invalid Credentials
+• Given I am a registered patient
+• When I enter an incorrect username or password
+• Then I see an error message “Invalid credentials. Please try again.”
+
+Account Lock for Security
+• Account is temporarily locked after 5 consecutive failed attempts
+• An email notification is sent to the patient informing them of failed attempts
+
+Password Reset Flow
+• Given I am on the login page
+• When I click “Forgot Password”
+• Then I am redirected to the password reset page
+
+Security Requirements
+• Passwords must be encrypted and never displayed
+• Session expires after 15 minutes of inactivity
+• All login attempts are logged for security audits
+• Only verified accounts can access medical data
+
+Story Points: 8
